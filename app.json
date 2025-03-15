@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "QiDZ-task",
-    "slug": "QiDZ-task",
+    "slug": "interviews-tasks",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.abdlrhmnnn.interviewstasks"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +37,20 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "splash": {
+      "image": "./assets/splashscreen_logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "96512369-a63c-4606-a8b1-08594282266a"
+      }
+    },
+    "owner": "abdlrhmnnn"
   }
 }
