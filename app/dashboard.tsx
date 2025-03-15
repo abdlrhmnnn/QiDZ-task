@@ -10,7 +10,7 @@ import {
 import { observer } from "mobx-react-lite";
 import { router } from "expo-router";
 import { useStores } from "../stores/StoresProvider";
-import { styles } from "@/src/screens/styles.ts/dashboard";
+import { styles } from "@/src/screens/styles/dashboard";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { useMoviesQuery } from "@/src/hooks/useMoviesQuery";
 
